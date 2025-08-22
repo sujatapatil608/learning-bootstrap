@@ -96,6 +96,35 @@
             <div class="card-body">
               <h5 class="card-title">Coffee</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog model-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-3">
+                       <img src="image/coffee-side1.jpg" alt="" width="30px" height="30px">
+                    </div>
+                    <div class="col-md-5">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
             </div>
           </div>
         </div>
@@ -103,35 +132,7 @@
     </div>
   </section>
 
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Black Coffee</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <div class="div container">
-            <div class="row">
-              <div class="col-md-6">
-                <img src="image/coffee-side1.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="col-md-6">
-                <p>Black coffee is coffee brewed without any additives like milk, cream, or sugar.
-                  It's known for its strong, bold flavor and is a popular choice for those seeking a
-                  caffeine boost and the pure taste of coffee. Beyond its taste, black coffee offers potential
-                  health benefits due to its rich antioxidant content and ability to enhance focus and mood. </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
+  
 
   <!--bootstrap.bundle.min.js-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
